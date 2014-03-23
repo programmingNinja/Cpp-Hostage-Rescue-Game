@@ -1,0 +1,47 @@
+# Project: Project1
+# Makefile created by Dev-C++ 5.4.2
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = Bomb.o Box.o Grid.o GridLocation.o main.o Player.o World.o
+LINKOBJ  = Bomb.o Box.o Grid.o GridLocation.o main.o Player.o World.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib" -static-libstdc++ -static-libgcc -g3
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/include"
+BIN      = Project1.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
+RM       = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+Bomb.o: Bomb.cpp
+	$(CPP) -c Bomb.cpp -o Bomb.o $(CXXFLAGS)
+
+Box.o: Box.cpp
+	$(CPP) -c Box.cpp -o Box.o $(CXXFLAGS)
+
+Grid.o: Grid.cpp
+	$(CPP) -c Grid.cpp -o Grid.o $(CXXFLAGS)
+
+GridLocation.o: GridLocation.cpp
+	$(CPP) -c GridLocation.cpp -o GridLocation.o $(CXXFLAGS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+Player.o: Player.cpp
+	$(CPP) -c Player.cpp -o Player.o $(CXXFLAGS)
+
+World.o: World.cpp
+	$(CPP) -c World.cpp -o World.o $(CXXFLAGS)
