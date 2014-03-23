@@ -1,0 +1,21 @@
+20 20 125
+XXXXXXXXXXXXXXXXXXXX
+X.o..H.X.X....H...oX
+X.X.XXXX.X..XXXXBXXX
+XoX.X....XXX.......X
+X....BX.HXH.....o..X
+X.X......X.........X
+XHX..H.PoXXX.B..H..X
+X2XX..XX.X.........X
+X.X......Xo...XX...X
+X....1.......2.....X
+XB...o....H.....B..X
+X.oH.XHE...o.......X
+XBXXBXXBXXBXXBBXXBXX
+X.......X..oX..X...X
+X.X.XXX...X.X..XXXXX
+XXX....XX....o.....X
+XXXX...BXXXX....1..X
+X..X..X....X..H....X
+XH.X...X..oX.......X
+XXXXXXXXXXXXXXXXXXXX

@@ -1,0 +1,21 @@
+20 20 90
+XXXXXXXXXXXXXXXXXXXX
+Xo.H..oX..X.....1..X
+X.X..X...X....X....X
+X..BX.X...Xo.o1....X
+X...X...XXHXXXX....X
+X.B.X..B......X..E.X
+XX...X....X...X.2..X
+X..X......o.X.X....X
+Xo.3.XB.X..P....2..X
+X.............X....X
+X..o..X...o...X....X
+XH....X.......X....X
+X..X.XXX..H...B....X
+X....XHX....X.X....X
+X....XXXX.....X....X
+X.............XH...X
+X...X.........X....X
+X...H..3......X....X
+X.............X....X
+XXXXXXXXXXXXXXXXXXXX
