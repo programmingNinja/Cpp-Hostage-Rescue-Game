@@ -158,3 +158,7 @@ Execution:
 running this file4)Execute the project and you will the console opening and you can play the game. There is not a need 
 to build the project as the repo already has the .o file which is produced after compiling. But if your OS gives any 
 trouble, compile it and then run it. Enjoy !!
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/programmingNinja/cpp-hostage-rescue-game/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
